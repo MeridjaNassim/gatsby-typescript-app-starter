@@ -1,0 +1,9 @@
+@import './simple-grid.css';
+
+
+* {
+    overflow-x: hidden;
+}
+main {
+    padding-top : 1.2rem;
+}
