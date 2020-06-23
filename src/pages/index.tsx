@@ -18,7 +18,6 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <div >
-    <img src={logo} width="300px" className="col-2 col-2-sm center"></img>
     <h3>GraphQL data</h3>
     <pre className="container">{JSON.stringify(data,null,4)}</pre>
     <h1>Hi people Iam {data.site.siteMetadata.author.replace('@','')}</h1>
